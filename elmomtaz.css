@@ -19,7 +19,7 @@ header {
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
-    background-color:#f4f4f4; 
+    background-color:#baf4ff; 
     /* background-color: #007bff; */
 }
 
@@ -61,13 +61,18 @@ nav li:hover {
     padding: 20px;
     border-bottom: 2px solid #007bff;
 }
-
+.left{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;  
+}
 .left img {
-    width: 100%;
+    width: 60%;
     height: auto;
     border-radius: 50%;
     transition: 1s; 
-    filter: grayscale(50%);  
+    filter: grayscale(50%);
 }
 
 .left img:hover {
@@ -147,6 +152,24 @@ nav li:hover {
     transition: 1s;
     border-radius: 25%;
     filter: grayscale(50%);
+}
+.one{
+    order: 3;
+}
+.two {
+    order: 2;
+}
+.three{
+    order: 1;
+}
+.four{
+    order: 3;
+}
+.five {
+    order: 2;
+}
+.six{
+    order: 1;
 }
 
 .page4 img:hover, .page5 img:hover, .page6 img:hover {
@@ -293,52 +316,3 @@ footer img {
 
 
 
-
-  .color-change-2x {
-	-webkit-animation: color-change-2x 2s linear infinite alternate backwards;
-	        animation: color-change-2x 2s linear infinite alternate backwards;
-}
-
- @-webkit-keyframes color-change-2x {
-    0% {
-      background: #19dcea;
-    }
-    100% {
-      background: #0e83f8;
-    }
-  }
-  @keyframes color-change-2x {
-    0% {
-      background: #19dcea;
-    }
-    100% {
-      background: #0eb5cf;
-    }
-  }
-  
-
-
-
-
-  .text-flicker-in-glow {
-	-webkit-animation: text-flicker-in-glow 4s linear both;
-	        animation: text-flicker-in-glow 4s linear both;
-}
-
- @-webkit-keyframes color-change-2x {
-    0% {
-      background: #19dcea;
-    }
-    100% {
-      background: #b22cff;
-    }
-  }
-  @keyframes color-change-2x {
-    0% {
-      background: #19dcea;
-    }
-    100% {
-      background: #b22cff;
-    }
-  }
-  
